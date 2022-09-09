@@ -43,9 +43,8 @@ else if (inputNumber!==SECRET_NUMBER){
 reStart.addEventListener("click",function(){
   SCORE =20;
   SECRET_NUMBER=Math.trunc(Math.random()*21);
-  displayGuessingText("Start Guessing...");
-  document.getElementsByClassName("number-window").style.backgroundColor="green";
-  numberScreen.style.backgroundColor="black";
+  displayGuessingText("Start Guessing...");numberScreen.style.color="#ffffff";
+  numberScreen.style.backgroundColor="#000000bf";
   numberScreen.textContent="?";
   score.textContent=SCORE;
   input.value="";
