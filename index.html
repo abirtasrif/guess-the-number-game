@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess The Number: Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-screen">
+      <h3>GUESS THE NUMBER</h3>
+      <div class="game-header">
+        <p>Score: <span class="score">00</span></p>
+        <p>High Score: <span class="high-score">00</span></p>
+      </div>
+      <div class="number-window">
+        <p class="number-screen">?</p>
+      </div>
+      <h4 class="start-guess">Start Guessing</h4>
+      <input class="input-number" type="number" min="0" max="20" />
+      <div class="controls">
+        <button class="btn check">Check!</button>
+        <button class="btn restart">Play Again</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Source Code Pro", monospace;
+  transition: all 0.3s ease-out;
+  color: #ffffff;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://c.tenor.com/3yPk2bgLpxsAAAAC/numbers-crunching.gif");
+  background-repeat: repeat;
+  font-size: 200%;
+  overflow: hidden;
+  padding-top: 1rem;
+}
+
+body:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: -2;
+}
+
+.game-screen {
+  width: 550px;
+  text-align: center;
+  background-color: hsla(0, 0%, 0%, 0.8);
+  margin: 2rem auto;
+  border-radius: 1rem;
+}
+
+.game-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+
+.number-screen {
+  font-size: 5rem;
+  padding: 3rem 4rem;
+  background-color: hsla(0, 0%, 0%, 0.75);
+  display: inline-block;
+  font-weight: 700;
+}
+
+.input-number {
+  height: 2.8rem;
+  border-radius: 0.5rem;
+  font-family: inherit;
+  font-size: 1.5rem;
+  width: 60%;
+  margin: 0.5rem auto;
+  color: #258525;
+  font-weight: 700;
+}
+
+.controls {
+  padding-bottom: 1.5rem;
+}
+
+.btn {
+  padding: 0.8rem 1rem;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  color: #258525;
+  font-family: inherit;
+  font-weight: 700;
+}
+
+.btn:hover {
+  background-color: #36c536;
+  color: cornsilk;
+  cursor: pointer;
+}
